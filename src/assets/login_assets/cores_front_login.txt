@@ -1,0 +1,6 @@
+gradiente direita:
+ topo = #42a2e5
+ p� = #74e5f6
+
+branco fundo = #f8f8f8
+bot�o = #85edc2

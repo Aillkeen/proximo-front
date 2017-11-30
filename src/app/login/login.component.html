@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="jumbotron col-md-4 offset-md-4">
+    <div class="text-center">
+      <img src="/assets/login_assets/proximo_titulo_login.png" alt="Responsive image">
+
+    </div>
+    <form (submit)="OnSubmit()">
+      <div class="form-group">
+        <label for="login">Login</label>
+        <input class="form-control" id="login" type="text" [(ngModel)]="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="login">Senha</label>
+        <input class="form-control" id="senha" type="password" [(ngModel)]="pass" name="password">
+      </div>
+      <div class="row">
+        <div class="form-group col-md-6">
+          <a  [routerLink]="['/cadastro']" >Cadastrar-se</a>
+        </div>
+        <div class="form-group col-md-6">
+          <button type="submit" class="btn btn-outline-success form-control">Entrar</button>
+        </div>
+      </div>
+  </form>
+  </div>
+</div>
+<!--<div class="container">
+  <img src="../../assets/login_assets/img_login.png" class="img-fluid" alt="Responsive image" id="foto">
+
+  <div class="logo">
+    <img src="../../assets/login_assets/proximo_titulo_login.png" alt="Responsive image" id="logo">
+  </div>
+
+  <div id="card">
+
+      <div id="card-form">
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="LOGIN">
+        </div>
+
+        <div class="form-group">
+          <input type="password" class="form-control" id="password" placeholder="SENHA">
+        </div>
+        <div id="btn">
+          <button type="button" class="btn btn-secondary">ENTRAR</button>
+        </div>
+      </div>
+      <a href="#">Cadastrar-se</a>
+      <p>powered by</p><div class="logo2"><img src="../../assets/login_assets/white.png" alt="Responsive image" id="logo2"></div>
+
+  </div>
+</div>
+-->
