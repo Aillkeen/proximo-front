@@ -8,8 +8,8 @@ import { Router } from "@angular/router";
 })
 export class LoginComponent{
 
-  private email:string;
-  private pass:number;
+  email:string;
+  pass:number;
 
   constructor(
     private router:Router) { }
